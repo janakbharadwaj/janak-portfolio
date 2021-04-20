@@ -18,37 +18,6 @@ body {
   overflow: hidden;
   background-image: url("https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
 }
-.navbar {
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  top: 0;
-  background: #1f2235;
-  z-index: 1;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-}
-
-.navbar__container {
-  display: flex;
-  height: 100px;
-  align-items: center;
-  justify-content: space-between;
-}
-.navbar__left-logo img {
-  width: 110px;
-}
-
-.navbar__right {
-  display: flex;
-  list-style-type: none;
-}
-.navbar__right li a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  font-size: 18px;
-  padding: 0 15px;
-}
 
 /* Helpers */
 .container {
@@ -168,7 +137,7 @@ body {
 }
 
 /* Servives */
-.services {
+.skills {
   background: #1f2235;
   padding: 100px 0;
   color: #fff;
@@ -202,38 +171,35 @@ body {
   margin: 30px auto;
 }
 
-.services__box {
+.skills__box {
   padding: 40px;
   background: #23263a;
   color: #fff;
   margin: 20px;
   transition: all 0.5s linear;
+  text-align: center;
 }
-.services__box:hover {
+.skills__box:hover {
   background: #ff4a57;
 }
 .commonIcons {
-  font-size: 40px;
+  font-size: 50px;
   color: #ff4a57;
   margin-bottom: 15px;
 }
-.services__box:hover .commonIcons {
+.skills__box:hover .commonIcons {
   color: #fff;
 }
-.services__box-header {
+.skills__box-header {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 15px;
-}
-.services__box-p {
-  font-size: 14px;
-  color: #dfdfdf;
 }
 
 /* about */
 .about {
   width: 100%;
-  background: #23263a;
+  background: rgb(55,61,83);
 }
 .about__img {
   padding: 30px;
