@@ -7,12 +7,6 @@ import {
 } from "react-icons/fa";
 
 const Banner = () => {
-  const [state] = React.useState({
-    title: "I am Janakbharadwaj",
-    text:
-      "Full Stack Web Developer​",
-    image: "/images/slack_pic.png",
-  });
   return (
     <header className="header">
       <div>
@@ -35,10 +29,10 @@ const Banner = () => {
                       <a href="https://janakbharadwaj-adluri.medium.com/"><FaMediumM className="headerIcon" /></a>
                     </li>
                   </ul>
-                  <h1>{state.title}</h1>
-                  <p>{state.text}</p>
+                  <h1>I am Janakbharadwaj</h1>
+                  <p>Full Stack Web Developer​</p>
                   <div className="header__buttons">
-                    <a href="" className="btn btn-outline">
+                    <a href="https://drive.google.com/file/d/1WKmOQd4R-DR6l5LhxSOGPNP6yhc9BA2k/view?usp=sharing" className="btn btn-outline">
                       Resume 
                     </a>
                   </div>
