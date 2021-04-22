@@ -5,6 +5,8 @@ import {
   FaMediumM,
   FaSlackHash
 } from "react-icons/fa";
+import { RiSurgicalMaskLine } from "react-icons/ri";
+import ContactForm from "./ContactForm"
 
 const Contact = () => {
   return (
@@ -17,10 +19,12 @@ const Contact = () => {
                 <h1 className="mainHeader">Contact</h1>
               </div>
               <p>
-                <span style={{color:"rgb(255,74,87)"}}> Address </span> : H.No 12-763/29, beside registration office, Reddy colony<br/> Mancherial, Telangana - 504208
+                <span style={{color:"rgb(255,74,87)"}}> Address </span> : Mancherial, Telangana - 504208
               </p>
               <p>
-                <span style={{color:"rgb(255,74,87)"}}> Email </span> : janakbharadwaj.adluri@gmail.com<br/>
+                <span style={{color:"rgb(255,74,87)"}}> Email </span> : janakbharadwaj.adluri@gmail.com<br/>             
+              </p>
+              <p>
                 <span style={{color:"rgb(255,74,87)"}}> Phone </span>: 8106896489
               </p>
               <ul className="contactCircles">
@@ -37,6 +41,20 @@ const Contact = () => {
                   <a href="https://janakbharadwaj-adluri.medium.com/"><FaMediumM className="headerIcon" /></a>
                 </li>
               </ul>
+              <br/>
+              <div>
+                <ContactForm/>
+              </div>
+              <br/>
+              <div className='thankYouText'>
+                <h1>Thank You</h1>
+                <br/>
+                <p>
+                  <RiSurgicalMaskLine className="headerIcon" />
+                    <span>Wear Mask - Stay Safe</span>  
+                  <RiSurgicalMaskLine className="headerIcon" />
+                </p>
+              </div>
             </div>
           </div>
         </div>

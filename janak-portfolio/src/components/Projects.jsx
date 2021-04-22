@@ -70,14 +70,18 @@ const Projects = () => {
                   <li>{item.responsibilities3}</li>
                   <li>{item.responsibilities4}</li>
                 </ul>
-                <div className="project__btn">
-                  <a href={item.git} className="btn btn-outline">
-                    GIT
-                  </a>
-                  <span style={{marginRight:"15px"}}> </span>
-                  <a href={item.blog} className="btn btn-outline">
-                    Blog
-                  </a>
+                <div className='projectButtons'>
+                  <button>
+                    <a href={item.git} className="btn">
+                      GIT
+                    </a>
+                  </button>
+                  <button>
+                    <a href={item.blog} className="btn">
+                      Blog
+                    </a>
+                  </button>
+                  
                 </div>
               </div>
             </div>
