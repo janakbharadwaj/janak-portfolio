@@ -200,9 +200,12 @@ body {
 .about {
   width: 100%;
   background: rgb(55,61,83);
+  /* border: 1px solid white; */
 }
 .about__img {
-  padding: 30px;
+  padding: 10px;
+  /* border: 1px solid white; */
+  text-align: center;
 }
 .about__img img {
   width: 300px;
@@ -210,6 +213,8 @@ body {
 }
 .about__info {
   color: #fff;
+  padding-bottom: 20px;
+  /* border: 1px solid white; */
 }
 .about__info h1 {
   margin-bottom: 30px;
