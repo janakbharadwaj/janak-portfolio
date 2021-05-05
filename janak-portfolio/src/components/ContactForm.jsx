@@ -1,54 +1,54 @@
-import React, { useState } from "react";
-import { db } from "../firebase";
+import React from "react";
+import emailjs from "emailjs-com";
+
+const initData = {
+  name: "",
+  email: "",
+  message: "",
+};
 
 const ContactForm = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  const [data, setData] = React.useState(initData);
 
-  const [loader, setLoader] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoader(true);
-
-    db.collection("contacts")
-      .add({
-        name: name,
-        email: email,
-        message: message,
-      })
-      .then(() => {
-        setLoader(false);
-        alert("Your message has been submitted👍");
-      })
-      .catch((error) => {
-        alert(error.message);
-        setLoader(false);
-      });
-
-    setName("");
-    setEmail("");
-    setMessage("");
+  const onChangeHandler = (e) => {
+    const { name, value } = e.target;
+    setData({ ...data, [name]: value });
   };
 
+  const onSubmitHandler=async(e)=>{
+    e.preventDefault();
+    emailjs
+      .sendForm('service_3uhw4po', 'template_7ekcztl', e.target, 'user_aPW8RWjmaOslibDfNj4ci')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    setData(initData);
+  }
+
+  const { name, email, message } = data;
+
   return (
-    <form className="form" onSubmit={handleSubmit}>
+    <form className="form" onSubmit={onSubmitHandler}>
       <h1>Drop a mail</h1>
       <input
         placeholder="Name"
+        name='name'
+        onChange={onChangeHandler}
         value={name}
-        onChange={(e) => setName(e.target.value)}
       />
       <input
         placeholder="Email"
+        name='email'
+        onChange={onChangeHandler}
         value={email}
-        onChange={(e) => setEmail(e.target.value)}
       />
       <textarea
         placeholder="Message"
         value={message}
-        onChange={(e) => setMessage(e.target.value)}
+        name="message"
+        onChange={onChangeHandler}
       ></textarea>
       <button type="submit"> Submit </button>
     </form>
