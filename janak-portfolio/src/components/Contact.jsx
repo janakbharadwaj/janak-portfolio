@@ -19,13 +19,13 @@ const Contact = () => {
                 <h1 className="mainHeader">Contact</h1>
               </div>
               <p>
-                <span style={{color:"rgb(255,74,87)"}}> Address </span> : Mancherial, Telangana - 504208
+                Mancherial, Telangana - 504208
               </p>
               <p>
-                <span style={{color:"rgb(255,74,87)"}}> Email </span> : janakbharadwaj.adluri@gmail.com<br/>             
+                <a href="mailto: janakbharadwaj.adluri@gmail.com" style={{color:"white"}}>janakbharadwaj.adluri@gmail.com</a><br/>             
               </p>
               <p>
-                <span style={{color:"rgb(255,74,87)"}}> Phone </span>: 8106896489
+                8106896489
               </p>
               <ul className="contactCircles">
                 <li>

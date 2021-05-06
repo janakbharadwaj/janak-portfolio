@@ -31,7 +31,7 @@ const ContactForm = () => {
 
   return (
     <form className="form" onSubmit={onSubmitHandler}>
-      <h1>Drop a mail</h1>
+      <h1 style={{color:"#ff4a57"}}>Drop a mail</h1>
       <input
         placeholder="Name"
         name='name'
