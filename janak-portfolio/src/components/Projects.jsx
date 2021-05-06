@@ -46,6 +46,15 @@ let arr = [{
   responsibilities2:"Implementing features in best possible way in given time limit",
   git:"https://github.com/janakbharadwaj/CoderJAM",
   blog:""
+},
+{
+  heading: "Chat Application",
+  desc:"Solo project, Group messagaging application, Inspired by Whatsapp, user will be able to join different groups available, user will get notification on each group message",
+  tech:"JavaScript | React |  CSS | Socket.io | Express",
+  responsibilities1 :"Implementing group messages feature, Viewing all group members",
+  responsibilities2:"Understanding socket.io, implemeting frameworks like antd",
+  git:"https://github.com/janakbharadwaj/chat-application",
+  blog:""
 }
 ]
 

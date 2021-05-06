@@ -4,12 +4,12 @@ const About = () => {
   return (
     <div className="about">
       <div className="container">
-        <div className="row  h-650 alignCenter">
-          <div className="col-6">
+        <div style={{display:"flex",justifyContent:"center",padding:"20px 20px"}}>
+          {/* <div className="col-6">
             <div className="about__img">
               <img src="/images/slack_pic.png" alt="profile pic" />
             </div>
-          </div>
+          </div> */}
           <div className="col-6">
             <div className="about__info">
               <h1 style={{color:"rgb(255,74,87)"}}>About Me</h1>
