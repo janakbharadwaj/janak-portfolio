@@ -47,9 +47,8 @@ const Contact = () => {
               </div>
               <br/>
               <div className='thankYouText'>
-                <h1>Thank You</h1>
-                <br/>
-                <p>
+                <h1 style={{color:"white",fontSize:"40px"}}>Thank You</h1>
+                <p style={{color:"white",fontSize:"30px"}}>
                   <RiSurgicalMaskLine className="headerIcon" />
                     <span>Wear Mask - Stay Safe</span>  
                   <RiSurgicalMaskLine className="headerIcon" />

@@ -123,10 +123,6 @@ body {
   padding: 13px 40px;
   border-radius: 50px;
 }
-.play {
-  font-size: 25px !important;
-  padding-top: 10px;
-}
 .banner__img {
   padding: 0 30px;
   margin-top: 150px;
@@ -427,11 +423,13 @@ body {
   font-size: 16px;
   color: rgb(0, 0, 32);
   outline: none;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .form > textarea {
   height: 100px;
   min-height: 100px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .form > label {

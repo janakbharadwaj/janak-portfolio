@@ -30,7 +30,7 @@ const Banner = () => {
                       <a href="https://janakbharadwaj-adluri.medium.com/"><FaMediumM className="headerIcon" /></a>
                     </li>
                   </ul>
-                  <h1>
+                  <h1 style={{color:"white"}}>
                     <Typewriter
                       onInit={(typewriter)=>{
                         typewriter.typeString("Am Janakbharadwaj")
@@ -38,14 +38,14 @@ const Banner = () => {
                       }}
                     />
                   </h1>
-                  <p>
+                  <p style={{color:"white",fontWeight:"600"}}>
                     <Typewriter
                       onInit={(typewriter)=>{
                         typewriter
                         .typeString("Full Stack Developer")
                         .pauseFor(2000)
                         .deleteAll()
-                        .typeString("I respect time, be punctual")
+                        .typeString("Respect time, be punctual")
                         .pauseFor(2000)
                         .deleteAll()
                         .typeString("Comfortable to work remote and onsite")
