@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/janak-portfolio/static/css/main.dd95ca45.chunk.css",
+    "main.js": "/janak-portfolio/static/js/main.1bc1508f.chunk.js",
+    "main.js.map": "/janak-portfolio/static/js/main.1bc1508f.chunk.js.map",
+    "runtime-main.js": "/janak-portfolio/static/js/runtime-main.40c2d83e.js",
+    "runtime-main.js.map": "/janak-portfolio/static/js/runtime-main.40c2d83e.js.map",
+    "static/css/2.54787924.chunk.css": "/janak-portfolio/static/css/2.54787924.chunk.css",
+    "static/js/2.d01f2f33.chunk.js": "/janak-portfolio/static/js/2.d01f2f33.chunk.js",
+    "static/js/2.d01f2f33.chunk.js.map": "/janak-portfolio/static/js/2.d01f2f33.chunk.js.map",
+    "index.html": "/janak-portfolio/index.html",
+    "static/css/2.54787924.chunk.css.map": "/janak-portfolio/static/css/2.54787924.chunk.css.map",
+    "static/css/main.dd95ca45.chunk.css.map": "/janak-portfolio/static/css/main.dd95ca45.chunk.css.map",
+    "static/js/2.d01f2f33.chunk.js.LICENSE.txt": "/janak-portfolio/static/js/2.d01f2f33.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40c2d83e.js",
+    "static/css/2.54787924.chunk.css",
+    "static/js/2.d01f2f33.chunk.js",
+    "static/css/main.dd95ca45.chunk.css",
+    "static/js/main.1bc1508f.chunk.js"
+  ]
+}
