@@ -18,16 +18,16 @@ const Banner = () => {
                 <div className="header__section">
                   <ul className="header__ul">
                     <li>
-                      <a href="https://www.linkedin.com/in/janakbharadwaj-adluri/"><FaLinkedinIn className="headerIcon" /></a>
+                      <a href="https://www.linkedin.com/in/janakbharadwaj-adluri/" target="_blank" rel="noreferrer"><FaLinkedinIn className="headerIcon" /></a>
                     </li>
                     <li>
-                      <a href="https://github.com/janakbharadwaj"><FaGithub className="headerIcon" /></a>
+                      <a href="https://github.com/janakbharadwaj" target="_blank" rel="noreferrer"><FaGithub className="headerIcon" /></a>
                     </li>
                     <li>
-                      <a href="https://hashnode.com/@janakbharadwaj95"><FaSlackHash className="headerIcon" /></a>
+                      <a href="https://hashnode.com/@janakbharadwaj95" target="_blank" rel="noreferrer"><FaSlackHash className="headerIcon" /></a>
                     </li>
                     <li>
-                      <a href="https://janakbharadwaj-adluri.medium.com/"><FaMediumM className="headerIcon" /></a>
+                      <a href="https://janakbharadwaj-adluri.medium.com/" target="_blank" rel="noreferrer"><FaMediumM className="headerIcon" /></a>
                     </li>
                   </ul>
                   <h1 style={{color:"white"}}>
