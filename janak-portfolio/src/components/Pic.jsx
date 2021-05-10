@@ -1,14 +1,10 @@
 import React from 'react'
+import slack_pic from "./slack_pic.png"
 
 const Pic = () => {
-  const [state] = React.useState({
-    title: "I am Janakbharadwaj",
-    text: "Full Stack Web Developer​",
-    image: "/images/slack_pic.png",
-  });
   return (
     <div className="profilePicture">
-      <img src={state.image} alt='profile pic'/>
+      <img src={slack_pic} alt='profile pic'/>
     </div>
   )
 }

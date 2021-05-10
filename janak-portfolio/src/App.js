@@ -6,13 +6,15 @@ import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Skills from "./components/Skills.jsx";
 import Pic from "./components/Pic.jsx"
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-      <Banner />
-      <Pic/>
-      <About />
+      <Header/>
+      {/* <Banner /> */}
+      {/* <Pic/> */}
+      {/* <About /> */}
       <Skills/>
       <Projects />
       <Contact />

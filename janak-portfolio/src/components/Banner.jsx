@@ -1,4 +1,5 @@
 import React from "react";
+import Pic from "./Pic.jsx"
 import {
   FaLinkedinIn,
   FaGithub,
@@ -9,7 +10,7 @@ import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
   return (
-    <header className="header">
+    <div className="header">
       <div>
         <div className="container">
           <div className="row">
@@ -31,15 +32,17 @@ const Banner = () => {
                     </li>
                   </ul>
                   <h1 style={{color:"white"}}>
-                    <Typewriter
+                    Am Janakbharadwaj
+                    {/* <Typewriter
                       onInit={(typewriter)=>{
                         typewriter.typeString("Am Janakbharadwaj")
                         .start()
                       }}
-                    />
+                    /> */}
                   </h1>
                   <p style={{color:"white",fontWeight:"600"}}>
-                    <Typewriter
+                     Full Stack Developer
+                    {/* <Typewriter
                       onInit={(typewriter)=>{
                         typewriter
                         .typeString("Full Stack Developer")
@@ -54,7 +57,7 @@ const Banner = () => {
                         .typeString("Full Stack Developer")
                         .start()
                       }}
-                    />​
+                    />​ */}
                   </p>
                   <div className="header__buttons">
                     <a href="https://drive.google.com/u/0/uc?id=1WKmOQd4R-DR6l5LhxSOGPNP6yhc9BA2k&export=download" className="btn btn-outline">
@@ -62,12 +65,15 @@ const Banner = () => {
                     </a>
                   </div>
                 </div>
+                
               </div>
             </div>
+            <Pic/>
           </div>
+          
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

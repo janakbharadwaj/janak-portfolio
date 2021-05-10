@@ -16,13 +16,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  background-image: url("https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  /* background-image: url("https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"); */
 }
 
 /* Helpers */
 .container {
   width: 1200px;
   margin: 0 auto;
+  /* border: 1px solid wheat; */
 }
 .bgMain {
   background: #1f2235;
@@ -58,13 +59,16 @@ body {
 .header__content {
   display: flex;
   align-items: center;
-  height: 80vh;
+  justify-content: center;
+  height: 50vh;
   width: 100%;
   color: #fff;
+  /* border: 1px solid white; */
 }
 .header__ul {
   list-style-type: none;
   display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 .header__ul li {
@@ -364,71 +368,6 @@ body {
 .contactCircles li:hover {
   background: #ff4a57;
 }
-@media (max-width:1200px){
-  .container {
-    width: 100%;
-    padding: 0 50px;
-  }
-  .col-6 {
-    width: 100%;
-  }
-  .col-3 {
-    width: 100%;
-  }
-  .col-4 {
-    width: 50%;
-  }
-  .header__section h1 {
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-  .header__section p {
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 30px;
-    margin-bottom: 50px;
-  }
-  .common {
-    width: 100%;
-  }
-  .h-650 {
-    height: auto;
-  }
-}
-
-@media (max-width: 765px) {
-  .container {
-    width: 100%;
-    padding: 0 50px;
-  }
-  .col-6 {
-    width: 100%;
-  }
-  .col-3 {
-    width: 100%;
-  }
-  .col-4 {
-    width: 100%;
-  }
-  .header__section h1 {
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 20px;
-  }
-  .header__section p {
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 30px;
-    margin-bottom: 50px;
-  }
-  .common {
-    width: 100%;
-  }
-  .h-650 {
-    height: auto;
-  }
-}
 
 /* ContactForm */
 .form {
@@ -492,12 +431,138 @@ body {
 }
 
 .profilePicture {
-  padding: 10px;
   /* border: 1px solid white; */
-  text-align: center;
-  background-color: rgb(55,61,83);
+  margin-left: 15%;
+  margin-top: 10%;
 }
 .profilePicture img {
   width: 300px;
   border-radius: 10px;
+}
+
+/* new header */
+
+.newHeader_parent{
+  background-color: rgb(35,38,58);
+}
+
+.newHeader{
+  /* border: 1px solid rgb(211, 206, 206); */
+  width: 1200px;
+  margin: 0px auto;
+  /* display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 100% 0; */
+  /* display: flex;
+  flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+}
+
+.newHeader_picDiv{
+  /* border: 1px solid rgb(226, 241, 9); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 50%; */
+  padding-top: 5%;
+}
+
+.newHeader_picDiv img{
+  width: 200px;
+  border-radius: 20px;
+}
+
+.newHeader_textDiv{
+  /* border: 1px solid rgb(243, 83, 9); */
+  /* width: 50%; */
+  text-align: center;
+}
+
+
+@media (max-width:1200px){
+  .container {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 50%;
+  }
+  .header__section h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .header__section p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  .common {
+    width: 100%;
+  }
+  .h-650 {
+    height: auto;
+  }
+
+  .newHeader{
+    width: 100%;
+  }
+  
+  /* .newHeader_picDiv{
+    width: 100%;
+  }
+  .newHeader_textDiv{
+    width: 100%;
+  } */
+}
+
+@media (max-width: 765px) {
+  .container {
+    width: 100%;
+    padding: 0 50px;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .col-3 {
+    width: 100%;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .header__section h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .header__section p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+  }
+  .common {
+    width: 100%;
+  }
+  .h-650 {
+    height: auto;
+  }
+
+  .newHeader{
+    width: 100%;
+  }
+
+  /* .newHeader_picDiv{
+    width: 100%;
+  }
+  .newHeader_textDiv{
+    width: 100%;
+  } */
 }
