@@ -30,28 +30,30 @@ const ContactForm = () => {
   const { name, email, message } = data;
 
   return (
-    <form className="form" onSubmit={onSubmitHandler}>
-      <h1 style={{color:"#ff4a57"}}>Drop a mail</h1>
-      <input
-        placeholder="Name"
-        name='name'
-        onChange={onChangeHandler}
-        value={name}
-      />
-      <input
-        placeholder="Email"
-        name='email'
-        onChange={onChangeHandler}
-        value={email}
-      />
-      <textarea
-        placeholder="Message"
-        value={message}
-        name="message"
-        onChange={onChangeHandler}
-      ></textarea>
-      <button type="submit"> Submit </button>
-    </form>
+    <div className='contactFormParent'>
+      <form className="form" onSubmit={onSubmitHandler}>
+        <h1 style={{color:"#ff4a57"}}>Drop a mail</h1>
+        <input
+          placeholder="Name"
+          name='name'
+          onChange={onChangeHandler}
+          value={name}
+        />
+        <input
+          placeholder="Email"
+          name='email'
+          onChange={onChangeHandler}
+          value={email}
+        />
+        <textarea
+          placeholder="Message"
+          value={message}
+          name="message"
+          onChange={onChangeHandler}
+        ></textarea>
+        <button type="submit"> Submit </button>
+      </form>
+    </div>
   );
 };
 

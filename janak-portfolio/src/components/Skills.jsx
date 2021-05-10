@@ -32,7 +32,7 @@ const Skills = () => {
       <div className="container">
         <div className="skills__header">
           <div className="common">
-            <h1 className="mainHeader">Skill Set</h1>
+            <h1 className="mainHeader">Tech Stack</h1>
           </div>
 
           <div className="row bgMain">

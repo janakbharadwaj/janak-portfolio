@@ -7,17 +7,19 @@ import Contact from "./components/Contact.jsx";
 import Skills from "./components/Skills.jsx";
 import Pic from "./components/Pic.jsx"
 import Header from "./components/Header";
+import ContactFormNew from "./components/ContactFormNew";
 
 function App() {
   return (
     <div>
       <Header/>
+      {/* <Contact /> */}
       {/* <Banner /> */}
       {/* <Pic/> */}
       {/* <About /> */}
       <Skills/>
       <Projects />
-      <Contact />
+      <ContactFormNew/>
     </div>
   );
 }

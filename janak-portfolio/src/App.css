@@ -58,9 +58,9 @@ body {
 /* header */
 .header__content {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-  height: 50vh;
+  /* height: 50vh; */
   width: 100%;
   color: #fff;
   /* border: 1px solid white; */
@@ -82,13 +82,14 @@ body {
   margin: 0 10px;
   transition: all 0.5s linear;
   cursor: pointer;
+  font-size: 20px;
 }
 .header__ul li a{
   color: white;
 }
-.header__ul li:nth-child(1){
+/* .header__ul li:nth-child(1){
   padding-top: 2px;
-}
+} */
 .header__ul li:hover {
   background: #fff;
   border: 2px solid transparent;
@@ -96,19 +97,20 @@ body {
 .header__ul li:hover .headerIcon {
   color: #ff4a57;
 }
+
 .header__ul li:first-child {
   margin-left: 0;
 }
 .header__section h1 {
   font-size: 57px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .header__section p {
   font-size: 26px;
   font-weight: 300;
   line-height: 40px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .btn {
@@ -120,8 +122,18 @@ body {
 .btn-outline {
   border: 3px solid #ff4a57;
   border-radius: 50px;
-  padding: 13px 40px;
+  padding: 5px 30px 10px 30px;
+  transition: all 0.5s linear;
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
 }
+.btn-outline:hover{
+  background-color: #fff;
+  color: #ff4a57;
+  border: 0px;
+}
+
 .btn-smart {
   background: #ff4a57;
   padding: 13px 40px;
@@ -444,6 +456,7 @@ body {
 
 .newHeader_parent{
   background-color: rgb(35,38,58);
+  background-image: linear-gradient(to left bottom, #e35862, #c14a6e, #994371, #6f3d6a, #49355a, #3a3050, #2d2b45, #222539, #212438, #202337, #202336, #1f2235);
 }
 
 .newHeader{
@@ -478,6 +491,20 @@ body {
   text-align: center;
 }
 
+.header_mailId{
+  /* border: 1px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.header_mailId span{
+  font-size: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-weight: 600;
+}
 
 @media (max-width:1200px){
   .container {
@@ -496,13 +523,15 @@ body {
   .header__section h1 {
     font-size: 35px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .header__section p {
     font-size: 20px;
     font-weight: 300;
-    line-height: 30px;
-    margin-bottom: 50px;
+    line-height: 10px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600;
   }
   .common {
     width: 100%;
