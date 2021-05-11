@@ -26,6 +26,7 @@ let arr = [{
   icon: <DiReact className="commonIcons" />,
   heading: "React.JS"
 }]
+
 const Skills = () => {
   return (
     <div className="skills">

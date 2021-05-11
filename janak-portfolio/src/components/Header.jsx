@@ -37,9 +37,6 @@ const Header = () => {
                             />​ */}
                         </p>
                         <br/>
-                        {/* <p className='header_mailId'>
-                            <span> janakbharadwaj.adluri@gmail.com </span> , <span> +91-8106896489 </span>
-                        </p> */}
                         <ul className="header__ul">
                             <li>
                                 <a href="https://www.linkedin.com/in/janakbharadwaj-adluri/" target="_blank" rel="noreferrer"><FaLinkedinIn className="headerIcon" /></a>
@@ -57,6 +54,10 @@ const Header = () => {
                                 Resume 
                             </a>
                         </div>
+                        <div className='header_mailId'>
+                            <span> janakbharadwaj.adluri@gmail.com </span> , <span> +91-8106896489 </span>
+                        </div>
+                        <br/>
                     </div>
                 </div>
                 </div>

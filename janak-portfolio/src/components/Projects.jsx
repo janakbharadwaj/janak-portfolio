@@ -1,6 +1,4 @@
 import React from "react";
-import 'antd/dist/antd.css';
-import { Modal, Button } from 'antd';
 
 let arr = [{
   heading: "Royal Brothers",
@@ -9,7 +7,8 @@ let arr = [{
   responsibilities1 :"Created Navbar and made it accessible to other contributors, Laid out the database schema.",
   responsibilities2:"Developed the Monthly rentals page and left navbar, Integrated the frontend and backend.",
   git:"https://github.com/janakbharadwaj/royal_brothers",
-  blog:"https://janakbharadwaj.hashnode.dev/janak-royal-brothers"
+  blog:"https://janakbharadwaj.hashnode.dev/janak-royal-brothers",
+  projectImg:"https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png"
 },
 {
   heading: "Product Hunt",
@@ -18,7 +17,8 @@ let arr = [{
   responsibilities1 :"Scraped data from the original product hunt, Developed pixel-perfect UI of the Discussions page.",
   responsibilities2:"Implemented features like Single Discussion Redirct, Modal, Filters, Git handling.",
   git:"https://github.com/nitansh11/product-hunt",
-  blog:"https://janakbharadwaj.hashnode.dev/janak-bharadwaj-product-hunt"
+  blog:"https://janakbharadwaj.hashnode.dev/janak-bharadwaj-product-hunt",
+  projectImg:"https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png"
 },
 {
   heading: "Carb Manager",
@@ -27,7 +27,8 @@ let arr = [{
   responsibilities1 :"Developed pixel-perfect UI of the Exercises and data visualization pages, Git handling and error resolving",
   responsibilities2:"Implemented features like Single Exercise Redirct, Modal, Filters, Search, Team collaboration and work division",
   git:"https://github.com/nitansh11/scandium",
-  blog:"https://janakbharadwaj-adluri.medium.com/creating-dynamic-web-pages-with-html-css-and-javascript-7c12c21a069d"
+  blog:"https://janakbharadwaj-adluri.medium.com/creating-dynamic-web-pages-with-html-css-and-javascript-7c12c21a069d",
+  projectImg:"https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png"
 },
 {
   heading: "Nifty",
@@ -36,7 +37,8 @@ let arr = [{
   responsibilities1 :"Created basic UI of Landing page, clients page complete, Remote work adapatability.",
   responsibilities2:"GIT handling, merging branches and resolving conflicts on GIT, Login and readme",
   git:"https://github.com/janakbharadwaj/titanium",
-  blog:"https://janakbharadwaj-adluri.medium.com/making-a-replica-of-the-nifty-website-in-just-3-days-6aacde1b9f99"
+  blog:"https://janakbharadwaj-adluri.medium.com/making-a-replica-of-the-nifty-website-in-just-3-days-6aacde1b9f99",
+  projectImg:"https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png"
 },
 {
   heading: "MedicJAM",
@@ -45,7 +47,8 @@ let arr = [{
   responsibilities1 :"Getting hold of new tech stack, Creating static design of product",
   responsibilities2:"Implementing features in best possible way in given time limit",
   git:"https://github.com/janakbharadwaj/CoderJAM",
-  blog:""
+  blog:"",
+  projectImg:"https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png"
 },
 {
   heading: "Chat Application",
@@ -54,24 +57,12 @@ let arr = [{
   responsibilities1 :"Implementing group messages feature, Viewing all group members",
   responsibilities2:"Understanding socket.io, implemeting frameworks like antd",
   git:"https://github.com/janakbharadwaj/chat-application",
-  blog:""
+  blog:"",
+  projectImg:"https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png"
 }
 ]
 
 const Projects = () => {
-  // const [isModalVisible, setIsModalVisible] = React.useState(false);
-
-  // const showModal = () => {
-  //   setIsModalVisible(true);
-  // };
-
-  // const handleOk = () => {
-  //   setIsModalVisible(false);
-  // };
-
-  // const handleCancel = () => {
-  //   setIsModalVisible(false);
-  // };
 
   return (
     <div className="projects">
@@ -91,45 +82,28 @@ const Projects = () => {
                 <div style={{lineHeight:"25px"}}>{item.tech}</div>
                 <br/>
                 <h3 style={{color:"rgb(211,67,81)"}}>Roles and Responsibilities</h3>
-                <ul>
+                {/* <ul>
                   <li>{item.responsibilities1}</li>
                   <li>{item.responsibilities2}</li>
-                  {/* <li>{item.responsibilities3}</li>
-                  <li>{item.responsibilities4}</li> */}
-                </ul>
+                  <li>{item.responsibilities3}</li>
+                  <li>{item.responsibilities4}</li>
+                </ul> */}
+                <img src={item.projectImg} alt='projectImg' className='projectImg'/>
                 <div className='projectButtons'>
                   <button>
-                    <a href={item.git} className="btn">
-                      GIT
+                    <a href={item.git} target="_blank" rel="noreferrer" className="btn">
+                      Code
                     </a>
                   </button>
                   <button>
-                    <a href={item.blog} className="btn">
+                    <a href={item.blog} target="_blank" rel="noreferrer" className="btn">
                       Blog
                     </a>
                   </button>
-                </div>
-                {/* <div>
-                  <button type="default" onClick={showModal}>
-                      More Info
+                  <button>
+                    <a href='' target="_blank" rel="noreferrer" className="btn">Demo</a>
                   </button>
-                  <Modal 
-                      title={item.heading} 
-                      visible={isModalVisible} 
-                      onOk={handleOk} 
-                      onCancel={handleCancel} 
-                      okButtonProps={{style:{display:'none'}}}
-                      cancelButtonProps={{style:{display:'none'}}}
-                  >
-                      <h3 style={{color:"rgb(211,67,81)"}}>Roles and Responsibilities</h3>
-                      <ul>
-                        <li>{item.responsibilities1}</li>
-                        <li>{item.responsibilities2}</li>
-                        <li>{item.responsibilities3}</li>
-                        <li>{item.responsibilities4}</li>
-                      </ul>
-                  </Modal>
-                </div> */}
+                </div>
               </div>
             </div>
           ))}

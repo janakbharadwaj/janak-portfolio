@@ -52,7 +52,8 @@ body {
 }
 
 .col-4 {
-  width: 33.33333333333333%;
+  /* width: 33.33333333333333%; */
+  width: 50%
 }
 
 /* header */
@@ -119,19 +120,26 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
 .btn-outline {
-  border: 3px solid #ff4a57;
-  border-radius: 50px;
+  background-image: linear-gradient(to right, #e04545 0%, #23263A  51%, #e04545  100%);
+  border: 1px solid #ff4a57;
+  border-radius: 20px;
   padding: 5px 30px 10px 30px;
-  transition: all 0.5s linear;
+  /* transition: all 0.5s linear; */
   cursor: pointer;
   font-size: 22px;
   font-weight: 600;
+  transition: 0.5s;
+  background-size: 200% auto;
 }
 .btn-outline:hover{
-  background-color: #fff;
+  /* background-color: #fff;
   color: #ff4a57;
-  border: 0px;
+  border: 0px; */
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
 
 .btn-smart {
@@ -171,7 +179,7 @@ body {
   font-size: 16px;
 }
 .mainHeader {
-  font-size: 32px;
+  font-size: 35px;
   margin-bottom: 20px;
   color: #ff4a57;
 }
@@ -194,17 +202,17 @@ body {
   transition: all 0.5s linear;
   text-align: center;
 }
-.skills__box:hover {
+/* .skills__box:hover {
   background: #ff4a57;
-}
+} */
 .commonIcons {
   font-size: 50px;
-  color: #ff4a57;
+  color: #fdfdfd;
   margin-bottom: 15px;
 }
-.skills__box:hover .commonIcons {
+/* .skills__box:hover .commonIcons {
   color: #fff;
-}
+} */
 .skills__box-header {
   font-size: 20px;
   font-weight: 500;
@@ -267,6 +275,7 @@ body {
 }
 .project {
   background: #3437539d;
+  height: 85%;
   padding: 25px;
   border-radius: 8px;
   margin: 35px 20px;
@@ -322,6 +331,11 @@ body {
 
 .projectButtons button:hover{
   background: #ff4a57;
+}
+
+.projectImg{
+  width:100%;
+  border-radius: 10px;
 }
 
 .thankYouText{
@@ -456,7 +470,8 @@ body {
 
 .newHeader_parent{
   background-color: rgb(35,38,58);
-  background-image: linear-gradient(to left bottom, #e35862, #c14a6e, #994371, #6f3d6a, #49355a, #3a3050, #2d2b45, #222539, #212438, #202337, #202336, #1f2235);
+  /* background-image: linear-gradient(to left bottom, #ff4a57, #d93b6d, #ab3a76, #7a3a72, #4d3560, #3c3154, #2d2b47, #222539, #212438, #202337, #202336, #1f2235); */
+  background-image: linear-gradient(to left bottom, #D44344, #c93759, #aa3466, #87356a, #633565, #51335e, #403156, #322d4b, #2d2b46, #282841, #24263b, #202336);
 }
 
 .newHeader{
