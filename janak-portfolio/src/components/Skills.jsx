@@ -38,7 +38,7 @@ const Skills = () => {
 
           <div className="row bgMain">
             {arr.map((item) => (
-              <div className="col-4 bgMain">
+              <div className="col-skill bgMain">
                 <div className="skills__box">
                   {item.icon}
                   <div className="skills__box-header">{item.heading}</div>

@@ -8,6 +8,7 @@ let arr = [{
   responsibilities2:"Developed the Monthly rentals page and left navbar, Integrated the frontend and backend.",
   git:"https://github.com/janakbharadwaj/royal_brothers",
   blog:"https://janakbharadwaj.hashnode.dev/janak-royal-brothers",
+  demo:"https://royalbrothersak.netlify.app/",
   projectImg:"https://user-images.githubusercontent.com/39058941/111019686-ec977e00-83e6-11eb-81e8-84625a9e7576.png"
 },
 {
@@ -18,6 +19,7 @@ let arr = [{
   responsibilities2:"Implemented features like Single Discussion Redirct, Modal, Filters, Git handling.",
   git:"https://github.com/nitansh11/product-hunt",
   blog:"https://janakbharadwaj.hashnode.dev/janak-bharadwaj-product-hunt",
+  demo:"https://producthuntalpha.netlify.app/",
   projectImg:"https://user-images.githubusercontent.com/73184042/117856778-ae64f080-b2a9-11eb-82ab-80441582553f.JPG"
 },
 {
@@ -27,6 +29,7 @@ let arr = [{
   responsibilities1 :"Developed pixel-perfect UI of the Exercises and data visualization pages, Git handling and error resolving",
   responsibilities2:"Implemented features like Single Exercise Redirct, Modal, Filters, Search, Team collaboration and work division",
   git:"https://github.com/nitansh11/scandium",
+  demo:"",
   blog:"https://janakbharadwaj-adluri.medium.com/creating-dynamic-web-pages-with-html-css-and-javascript-7c12c21a069d",
   projectImg:"https://user-images.githubusercontent.com/73184042/117856551-6219b080-b2a9-11eb-8178-852ab06e2618.JPG"
 },
@@ -37,8 +40,9 @@ let arr = [{
   responsibilities1 :"Created basic UI of Landing page, clients page complete, Remote work adapatability.",
   responsibilities2:"GIT handling, merging branches and resolving conflicts on GIT, Login and readme",
   git:"https://github.com/janakbharadwaj/titanium",
+  demo:"",
   blog:"https://janakbharadwaj-adluri.medium.com/making-a-replica-of-the-nifty-website-in-just-3-days-6aacde1b9f99",
-  projectImg:"https://user-images.githubusercontent.com/73213917/100326285-c4c70a80-2fef-11eb-934c-4c5067b130b6.png"
+  projectImg:"https://user-images.githubusercontent.com/73184042/117942374-9d0ef900-b328-11eb-9928-e99c3657e9a1.JPG"
 },
 {
   heading: "MedicJAM",
@@ -48,6 +52,7 @@ let arr = [{
   responsibilities2:"Implementing features in best possible way in given time limit",
   git:"https://github.com/janakbharadwaj/CoderJAM",
   blog:"",
+  demo:"",
   projectImg:"https://user-images.githubusercontent.com/73184042/117850552-0a784680-b2a3-11eb-89be-5b066a91fd83.JPG"
 },
 {
@@ -58,6 +63,7 @@ let arr = [{
   responsibilities2:"Understanding socket.io, implemeting frameworks like antd",
   git:"https://github.com/janakbharadwaj/chat-application",
   blog:"",
+  demo:"",
   projectImg:"https://user-images.githubusercontent.com/73184042/117853063-9b502180-b2a5-11eb-9ed2-3fbce349a430.JPG"
 }
 ]
@@ -74,35 +80,34 @@ const Projects = () => {
           {arr.map((item) => (
             <div className="col-4">
               <div className="project">
-                <img src={item.projectImg} alt='projectImg' className='projectImg'/>
                 <div className="projectHeading">{item.heading}</div>
-                <div style={{lineHeight:"20px"}}>{item.desc}</div>
+
+                <img src={item.projectImg} alt='projectImg' className='projectImg'/>
                 <br/>
-                <h3 style={{color:"rgb(211,67,81)"}}>Tech Stack</h3>
+                <div style={{lineHeight:"20px"}}>{item.desc}</div>
+                <button className='blogButton'>
+                  <a href={item.blog} target="_blank" rel="noreferrer">
+                    Blog
+                  </a>
+                </button>
+                <br/>
+                <h3 style={{color:"rgb(255,74,87)"}}>Tech Stack</h3>
                 
                 <div style={{lineHeight:"25px"}}>{item.tech}</div>
-                <br/>
-                {/* <h3 style={{color:"rgb(211,67,81)"}}>Roles and Responsibilities</h3> */}
-                {/* <ul>
-                  <li>{item.responsibilities1}</li>
-                  <li>{item.responsibilities2}</li>
-                  <li>{item.responsibilities3}</li>
-                  <li>{item.responsibilities4}</li>
-                </ul> */}
-                
+                <br/>                
                 <div className='projectButtons'>
                   <button>
                     <a href={item.git} target="_blank" rel="noreferrer" className="btn">
                       Code
                     </a>
                   </button>
-                  <button>
+                  {/* <button>
                     <a href={item.blog} target="_blank" rel="noreferrer" className="btn">
                       Blog
                     </a>
-                  </button>
+                  </button> */}
                   <button>
-                    <a href='' target="_blank" rel="noreferrer" className="btn">Demo</a>
+                    <a href={item.demo} target="_blank" rel="noreferrer" className="btn">Demo</a>
                   </button>
                 </div>
               </div>

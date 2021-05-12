@@ -1,24 +1,25 @@
 import React from 'react'
-import slack_pic from "./slack_pic.png"
+// import slack_pic from "./slack_pic.png"
+import profile_new from "./profile_new.jpg"
 import {
     FaLinkedinIn,
     FaGithub,
     FaMediumM
 } from "react-icons/fa";
-import Typewriter from 'typewriter-effect';
+//import Typewriter from 'typewriter-effect';
 
 const Header = () => {
     return (
         <div className='newHeader_parent'>
             <div className='newHeader'>
                 <div className='newHeader_picDiv'>
-                    <img src={slack_pic} alt='profile pic'/>
+                    <img src={profile_new} alt='profile pic'/>
                 </div>
                 {/* <br/> */}
                 <div className='newHeader_textDiv'>
                 <div className="header__content">
                     <div className="header__section">                        
-                        <h1 style={{color:"white",fontSize:"40px"}}>
+                        <h1 style={{color:"white",fontSize:"35px",marginTop:"10px"}}>
                             Janakbharadwaj Adluri
                         </h1>
                         <p style={{color:"white",fontWeight:"600",marginBottom:"5px"}}>
@@ -53,9 +54,6 @@ const Header = () => {
                             <a href="https://drive.google.com/u/0/uc?id=1WKmOQd4R-DR6l5LhxSOGPNP6yhc9BA2k&export=download" className="btn btn-outline">
                                 Resume 
                             </a>
-                        </div>
-                        <div className='header_mailId'>
-                            <span> janakbharadwaj.adluri@gmail.com </span> , <span> +91-8106896489 </span>
                         </div>
                         <br/>
                     </div>

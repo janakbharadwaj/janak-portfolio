@@ -6,7 +6,7 @@ import {
   FaMediumM,
   FaSlackHash
 } from "react-icons/fa";
-import Typewriter from 'typewriter-effect';
+//import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
   return (
