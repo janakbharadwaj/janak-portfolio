@@ -320,8 +320,8 @@ body {
   justify-content: center;
 }
 .projectButtons button{
-  width: 100px;
-  padding: 13px 14px;
+  width: 80px;
+  padding: 5px;
   text-align: center;
   outline: none;
   border: none;
@@ -330,13 +330,14 @@ body {
   border: 3px solid #ff4a57;
   border-radius: 50px;
   background-color: rgb(44,47,71);
-  margin: 20px;
+  margin: 10px;
   transition: all 0.5s linear;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 .blogButton{
   width: 80px;
-  padding: 13px 14px;
+  padding: 5px;
   text-align: center;
   outline: none;
   border: none;
@@ -345,7 +346,7 @@ body {
   border: 3px solid #ff4a57;
   border-radius: 20px;
   background-color: rgb(44,47,71);
-  margin: 20px;
+  margin: 15px;
   transition: all 0.5s linear;
   cursor: pointer;
 }

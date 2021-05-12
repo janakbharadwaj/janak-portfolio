@@ -24,7 +24,7 @@ let arr = [{
 },
 {
   heading: "Carb Manager",
-  desc:"As a team of 3 we made the clone of carb manager website, A Place where a fitness freak can find all the information needed regarding exercises, diet, and yoga.",
+  desc:"A Place where a fitness freak can find all the information needed regarding exercises, diet, yoga and personal training.",
   tech:" HTML | CSS | JavaScript",
   responsibilities1 :"Developed pixel-perfect UI of the Exercises and data visualization pages, Git handling and error resolving",
   responsibilities2:"Implemented features like Single Exercise Redirct, Modal, Filters, Search, Team collaboration and work division",
@@ -46,7 +46,7 @@ let arr = [{
 },
 {
   heading: "MedicJAM",
-  desc:"It is altogether a new Idea, we as a team of 3 trieed to implement the new tech stack in 48 hours as a part of hackathon, its based on current pandemic",
+  desc:"Medic based product where user can view hospitals and its features, user can also enquire about oxygen, beds and doctor availability",
   tech:"Next | MongoDB | JavaScript | Axios | Node | CSS",
   responsibilities1 :"Getting hold of new tech stack, Creating static design of product",
   responsibilities2:"Implementing features in best possible way in given time limit",
@@ -57,13 +57,13 @@ let arr = [{
 },
 {
   heading: "Chat Application",
-  desc:"Solo project, Group messagaging application, Inspired by Whatsapp, user will be able to join different groups available, user will get notification on each group message",
+  desc:"Group messagaging application, user will be able to join different groups available, user will get notification on each group message",
   tech:"JavaScript | React |  CSS | Socket.io | Express",
   responsibilities1 :"Implementing group messages feature, Viewing all group members",
   responsibilities2:"Understanding socket.io, implemeting frameworks like antd",
   git:"https://github.com/janakbharadwaj/chat-application",
   blog:"",
-  demo:"",
+  demo:"https://drive.google.com/file/d/1Tzc3gM4MVwy6ZL_uC2E4Awl5Ys3dhgYf/view",
   projectImg:"https://user-images.githubusercontent.com/73184042/117853063-9b502180-b2a5-11eb-9ed2-3fbce349a430.JPG"
 }
 ]
