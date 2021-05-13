@@ -2,7 +2,7 @@ import React from "react";
 
 let arr = [{
   heading: "Royal Brothers",
-  desc:"As a team of 3 we made the end to end clone of royal brothers website, a web application to rent two wheelers",
+  desc:"As a team of 3, we made the end-to-end clone of the royal brothers website, a web application to rent two-wheelers.",
   tech:"HTML | CSS | JavaScript | React | Axios | Node | Express | MongoDB ",
   responsibilities1 :"Created Navbar and made it accessible to other contributors, Laid out the database schema.",
   responsibilities2:"Developed the Monthly rentals page and left navbar, Integrated the frontend and backend.",
@@ -23,30 +23,8 @@ let arr = [{
   projectImg:"https://user-images.githubusercontent.com/73184042/117856778-ae64f080-b2a9-11eb-82ab-80441582553f.JPG"
 },
 {
-  heading: "Carb Manager",
-  desc:"A Place where a fitness freak can find all the information needed regarding exercises, diet, yoga and personal training.",
-  tech:" HTML | CSS | JavaScript",
-  responsibilities1 :"Developed pixel-perfect UI of the Exercises and data visualization pages, Git handling and error resolving",
-  responsibilities2:"Implemented features like Single Exercise Redirct, Modal, Filters, Search, Team collaboration and work division",
-  git:"https://github.com/nitansh11/scandium",
-  demo:"",
-  blog:"https://janakbharadwaj-adluri.medium.com/creating-dynamic-web-pages-with-html-css-and-javascript-7c12c21a069d",
-  projectImg:"https://user-images.githubusercontent.com/73184042/117856551-6219b080-b2a9-11eb-8178-852ab06e2618.JPG"
-},
-{
-  heading: "Nifty",
-  desc:"We were the team of 2, with the very basic knowledge of developement we made the clone of Nifty website which is a project management site",
-  tech:"HTML | CSS ",
-  responsibilities1 :"Created basic UI of Landing page, clients page complete, Remote work adapatability.",
-  responsibilities2:"GIT handling, merging branches and resolving conflicts on GIT, Login and readme",
-  git:"https://github.com/janakbharadwaj/titanium",
-  demo:"",
-  blog:"https://janakbharadwaj-adluri.medium.com/making-a-replica-of-the-nifty-website-in-just-3-days-6aacde1b9f99",
-  projectImg:"https://user-images.githubusercontent.com/73184042/117942374-9d0ef900-b328-11eb-9928-e99c3657e9a1.JPG"
-},
-{
   heading: "MedicJAM",
-  desc:"Medic based product where user can view hospitals and its features, user can also enquire about oxygen, beds and doctor availability",
+  desc:"Medic-based product where user can view hospitals and its features, user can also enquire about oxygen, beds and doctor availability.",
   tech:"Next | MongoDB | JavaScript | Axios | Node | CSS",
   responsibilities1 :"Getting hold of new tech stack, Creating static design of product",
   responsibilities2:"Implementing features in best possible way in given time limit",
@@ -57,7 +35,7 @@ let arr = [{
 },
 {
   heading: "Chat Application",
-  desc:"Group messagaging application, user will be able to join different groups available, user will get notification on each group message",
+  desc:"Group messaging application, the user will be able to join different groups available, the user will get a notification on each group message.",
   tech:"JavaScript | React |  CSS | Socket.io | Express",
   responsibilities1 :"Implementing group messages feature, Viewing all group members",
   responsibilities2:"Understanding socket.io, implemeting frameworks like antd",
@@ -65,6 +43,28 @@ let arr = [{
   blog:"",
   demo:"https://drive.google.com/file/d/1Tzc3gM4MVwy6ZL_uC2E4Awl5Ys3dhgYf/view",
   projectImg:"https://user-images.githubusercontent.com/73184042/117853063-9b502180-b2a5-11eb-9ed2-3fbce349a430.JPG"
+},
+{
+  heading: "Carb Manager",
+  desc:"A Place where a fitness freak can find all the information needed regarding exercises, diet, yoga, and personal training.",
+  tech:" HTML | CSS | JavaScript",
+  responsibilities1 :"Developed pixel-perfect UI of the Exercises and data visualization pages, Git handling and error resolving",
+  responsibilities2:"Implemented features like Single Exercise Redirct, Modal, Filters, Search, Team collaboration and work division",
+  git:"https://github.com/nitansh11/scandium",
+  demo:"",
+  blog:"https://janakbharadwaj-adluri.medium.com/creating-dynamic-web-pages-with-html-css-and-javascript-7c12c21a069d",
+  projectImg:"https://user-images.githubusercontent.com/73184042/117856551-6219b080-b2a9-11eb-8178-852ab06e2618.JPG"
+},
+{
+  heading: "Nifty",
+  desc:"We were a team of 2, with a very basic knowledge of development we made the clone of the Nifty website which is a project management site.",
+  tech:"HTML | CSS ",
+  responsibilities1 :"Created basic UI of Landing page, clients page complete, Remote work adapatability.",
+  responsibilities2:"GIT handling, merging branches and resolving conflicts on GIT, Login and readme",
+  git:"https://github.com/janakbharadwaj/titanium",
+  demo:"",
+  blog:"https://janakbharadwaj-adluri.medium.com/making-a-replica-of-the-nifty-website-in-just-3-days-6aacde1b9f99",
+  projectImg:"https://user-images.githubusercontent.com/73184042/117942374-9d0ef900-b328-11eb-9928-e99c3657e9a1.JPG"
 }
 ]
 

@@ -163,7 +163,7 @@ body {
 
 .skills {
   background: #1f2235;
-  padding: 100px 0;
+  padding: 60px 0;
   color: #fff;
   /* border: 1px solid white;
   width: 80%;
@@ -384,15 +384,20 @@ body {
 }
 
 .contact {
-  padding: 100px 0;
-  background: #23263a;
+  padding: 50px 0;
+  background: rgb(31,34,53);
+  /* border: 1px solid red; */
 }
 .contactSection p {
   color: #fff;
   font-size: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
-  line-height: 25px;
+  /* line-height: 25px; */
+  /* border: 1px solid rgb(81, 255, 0); */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contactCircles {
@@ -530,6 +535,53 @@ body {
   /* border: 1px solid rgb(243, 83, 9); */
   /* width: 50%; */
   text-align: center;
+}
+
+/* new head */
+.newHead_parent{
+  background-color: rgb(35,38,58);
+  /* border: 1px solid rgb(15, 15, 15); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5% 0%;
+}
+
+.newHead_img{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* width: 50%; */
+  padding: 1% 0%;
+  /* background-color: rgba(31, 34, 53, 0.445); */
+  border-radius: 20px;
+}
+.newHead_img img{
+  width: 40%;
+  /* width: 200px; */
+  border-radius: 20px;
+}
+
+.newHead_text{
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1% 3%;
+  padding-right: 5%;
+}
+
+/* mailNumber */
+.mailNumber{
+  color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 @media (max-width:1200px){

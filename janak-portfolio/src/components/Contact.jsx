@@ -7,15 +7,17 @@ const Contact = () => {
         <div className="contactSection">
           <div className="row justifyConter">
             <div className="col-6">
-              {/* <p>
-                Mancherial, Telangana - 504208
-              </p> */}
+            <div className="common">         
+              <h1 className="mainHeader">Contact</h1>
+            </div>
+            <div className='mailNumber'>
               <p>
-                <a href="mailto: janakbharadwaj.adluri@gmail.com" style={{color:"white"}}>janakbharadwaj.adluri@gmail.com</a><br/>             
+                janakbharadwaj.adluri@gmail.com
               </p>
               <p>
                 8106896489
               </p>
+            </div>
             </div>
           </div>
         </div>
