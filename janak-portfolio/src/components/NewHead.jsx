@@ -5,6 +5,7 @@ import {
     FaGithub,
     FaMediumM
 } from "react-icons/fa";
+import { SiHugo } from "react-icons/si";
 //import Typewriter from 'typewriter-effect';
 
 const NewHead = () => {
@@ -43,10 +44,13 @@ const NewHead = () => {
                             <li>
                                 <a href="https://janakbharadwaj-adluri.medium.com/" target="_blank" rel="noreferrer"><FaMediumM className="headerIcon" /></a>
                             </li>
+                            <li>
+                                <a href="https://hashnode.com/@janakbharadwaj95" target="_blank" rel="noreferrer"><SiHugo className="headerIcon" /></a>
+                            </li>
                         </ul>
                         <br/>
                         <div style={{marginBottom:"30px"}}>
-                            <a href="https://drive.google.com/u/0/uc?id=1WKmOQd4R-DR6l5LhxSOGPNP6yhc9BA2k&export=download" className="btn btn-outline">
+                            <a href="https://drive.google.com/u/0/uc?id=1gV_CKnpSptN7LhoC-8cVLUvYz4lzW2mK&export=download" className="btn btn-outline">
                                 Resume 
                             </a>
                         </div>
