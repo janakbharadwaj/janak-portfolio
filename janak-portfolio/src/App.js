@@ -6,7 +6,7 @@ import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import Skills from "./components/Skills.jsx";
 //import Pic from "./components/Pic.jsx"
-import Header from "./components/Header";
+//import Header from "./components/Header";
 import ContactFormNew from "./components/ContactFormNew";
 import NewHead from "./components/NewHead";
 
@@ -28,3 +28,7 @@ function App() {
 }
 
 export default App;
+
+// npm install --save-dev @iconify/react @iconify-icons/simple-icons
+// import { Icon, InlineIcon } from '@iconify/react';
+// import hashnodeIcon from '@iconify-icons/simple-icons/hashnode';

@@ -30,7 +30,7 @@ let arr = [{
   responsibilities2:"Implementing features in best possible way in given time limit",
   git:"https://github.com/janakbharadwaj/CoderJAM",
   blog:"",
-  demo:"",
+  demo:"https://drive.google.com/file/d/11yy9Yce-UmPVEyH1L3nRw8EbWWeQZv7P/view?usp=sharing",
   projectImg:"https://user-images.githubusercontent.com/73184042/117850552-0a784680-b2a3-11eb-89be-5b066a91fd83.JPG"
 },
 {
@@ -51,7 +51,7 @@ let arr = [{
   responsibilities1 :"Developed pixel-perfect UI of the Exercises and data visualization pages, Git handling and error resolving",
   responsibilities2:"Implemented features like Single Exercise Redirct, Modal, Filters, Search, Team collaboration and work division",
   git:"https://github.com/nitansh11/scandium",
-  demo:"",
+  demo:"https://drive.google.com/file/d/1VR4EnDsWhMIkEo6o0sF1if1g7389ToK4/view?usp=sharing",
   blog:"https://janakbharadwaj-adluri.medium.com/creating-dynamic-web-pages-with-html-css-and-javascript-7c12c21a069d",
   projectImg:"https://user-images.githubusercontent.com/73184042/117856551-6219b080-b2a9-11eb-8178-852ab06e2618.JPG"
 },
@@ -62,7 +62,7 @@ let arr = [{
   responsibilities1 :"Created basic UI of Landing page, clients page complete, Remote work adapatability.",
   responsibilities2:"GIT handling, merging branches and resolving conflicts on GIT, Login and readme",
   git:"https://github.com/janakbharadwaj/titanium",
-  demo:"",
+  demo:"https://drive.google.com/file/d/1xWM_UGu08ww66ZJeQFMDaPnI73a0cjds/view?usp=sharing",
   blog:"https://janakbharadwaj-adluri.medium.com/making-a-replica-of-the-nifty-website-in-just-3-days-6aacde1b9f99",
   projectImg:"https://user-images.githubusercontent.com/73184042/117942374-9d0ef900-b328-11eb-9928-e99c3657e9a1.JPG"
 }
