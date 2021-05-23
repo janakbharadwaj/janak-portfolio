@@ -29,7 +29,7 @@ let arr = [{
   responsibilities1 :"Getting hold of new tech stack, Creating static design of product",
   responsibilities2:"Implementing features in best possible way in given time limit",
   git:"https://github.com/janakbharadwaj/CoderJAM",
-  blog:"",
+  blog:"https://janakbharadwaj.hashnode.dev/medicjam",
   demo:"https://drive.google.com/file/d/11yy9Yce-UmPVEyH1L3nRw8EbWWeQZv7P/view?usp=sharing",
   projectImg:"https://user-images.githubusercontent.com/73184042/117850552-0a784680-b2a3-11eb-89be-5b066a91fd83.JPG"
 },
@@ -40,7 +40,7 @@ let arr = [{
   responsibilities1 :"Implementing group messages feature, Viewing all group members",
   responsibilities2:"Understanding socket.io, implemeting frameworks like antd",
   git:"https://github.com/janakbharadwaj/chat-application",
-  blog:"",
+  blog:"https://janakbharadwaj.hashnode.dev/my-chat-application",
   demo:"https://drive.google.com/file/d/1Tzc3gM4MVwy6ZL_uC2E4Awl5Ys3dhgYf/view",
   projectImg:"https://user-images.githubusercontent.com/73184042/117853063-9b502180-b2a5-11eb-9ed2-3fbce349a430.JPG"
 },
