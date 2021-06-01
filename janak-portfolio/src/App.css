@@ -303,6 +303,9 @@ body {
   margin-bottom: 15px;
   color: rgb(255,74,87);
 }
+.projectDesc{
+  line-height: 20px;
+}
 .project ul {
   list-style-type: none;
 }
@@ -625,6 +628,11 @@ body {
   .newHeader{
     width: 100%;
   }
+
+  .projectDesc{
+    line-height: 20px;
+    text-align-last: center;
+  }
   
   /* .newHeader_picDiv{
     width: 100%;
@@ -671,6 +679,11 @@ body {
 
   .newHeader{
     width: 100%;
+  }
+
+  .projectDesc{
+    line-height: 20px;
+    text-align-last: center;
   }
 
   /* .newHeader_picDiv{

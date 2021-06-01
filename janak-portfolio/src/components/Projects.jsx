@@ -84,7 +84,7 @@ const Projects = () => {
 
                 <img src={item.projectImg} alt='projectImg' className='projectImg'/>
                 <br/>
-                <div style={{lineHeight:"20px"}}>{item.desc}</div>
+                <div className='projectDesc'>{item.desc}</div>
                 <button className='blogButton'>
                   <a href={item.blog} target="_blank" rel="noreferrer">
                     Blog
