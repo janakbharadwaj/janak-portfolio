@@ -50,7 +50,7 @@ const NewHead = () => {
                         </ul>
                         <br/>
                         <div style={{marginBottom:"30px"}}>
-                            <a href="https://drive.google.com/u/0/uc?id=1gV_CKnpSptN7LhoC-8cVLUvYz4lzW2mK&export=download" className="btn btn-outline">
+                            <a href="https://drive.google.com/file/d/14fD1nQh8QDtN0DKEDMSfsDHTutEw0ZbS/view?usp=sharing&export=download" className="btn btn-outline">
                                 Resume 
                             </a>
                         </div>

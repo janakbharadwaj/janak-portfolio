@@ -1,6 +1,7 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaVuejs } from "react-icons/fa";
 import { DiJsBadge, DiMongodb, DiNodejsSmall, DiReact } from "react-icons/di";
+//import { SiNestjs } from "react-icons/si";
 
 let arr = [{
   icon: <FaHtml5 className="commonIcons" />,
@@ -20,12 +21,21 @@ let arr = [{
 },
 {
   icon: <DiNodejsSmall className="commonIcons" />,
-  heading: "Node.JS"
+  heading: "Node Js"
 },
 {
   icon: <DiReact className="commonIcons" />,
-  heading: "React.JS"
-}]
+  heading: "React Js"
+},
+{
+  icon: <FaVuejs className="commonIcons" />,
+  heading: "Vue Js"
+},
+// {
+//   icon: <SiNestjs className="commonIcons" />,
+//   heading: "Nest Js"
+// }
+]
 
 const Skills = () => {
   return (

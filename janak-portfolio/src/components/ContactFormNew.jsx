@@ -1,6 +1,6 @@
 import React from "react";
 import { RiSurgicalMaskLine } from "react-icons/ri";
-import ContactForm from "./ContactForm"
+//import ContactForm from "./ContactForm"
 
 const ContactFormNew = () => {
   return (
@@ -10,7 +10,7 @@ const ContactFormNew = () => {
           <div className="row justifyConter">
             <div className="col-6">
               <div>
-                <ContactForm/>
+                {/* <ContactForm/> */}
               </div>
               <br/>
               <div className='thankYouText'>
