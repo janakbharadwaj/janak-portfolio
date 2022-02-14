@@ -32,3 +32,6 @@ export default App;
 // npm install --save-dev @iconify/react @iconify-icons/simple-icons
 // import { Icon, InlineIcon } from '@iconify/react';
 // import hashnodeIcon from '@iconify-icons/simple-icons/hashnode';
+
+//gh-pages deploying
+//https://www.youtube.com/watch?v=2hM5viLMJpA
